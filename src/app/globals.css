@@ -3333,3 +3333,42 @@ html[data-page-hidden="true"] .duet-current path {
 .water-page a:focus-visible,.polish-page a:focus-visible,.art-viewer button:focus-visible{outline:2px solid var(--el-accent);outline-offset:4px}
 @media(min-width:701px){.water-page .text-link,.polish-page .text-link{font-size:13px;min-height:52px;padding:15px 22px}}
 @media(max-width:700px){.water-page .form-nav,.polish-page .form-nav{padding-inline:12px}}
+
+/* Illustrated elemental scenery; content and component styling stay unchanged. */
+.water-page {
+  --element-scenery: var(--water-background-image);
+  --scenery-shade: #031820;
+  --scenery-veil: #031820c7;
+}
+.polish-page {
+  --element-scenery: var(--flame-background-image);
+  --scenery-shade: #140d10;
+  --scenery-veil: #140d10c7;
+}
+.water-page .hero:before,
+.polish-page .hero:before {
+  background: linear-gradient(90deg, var(--scenery-shade) 0%, transparent 28%), var(--element-scenery) center / cover no-repeat;
+  opacity: .8;
+  mask-image: linear-gradient(black 75%, transparent);
+}
+.water-page :is(.story-section, .breathing, .forms-section, .gallery-section, .closing),
+.polish-page :is(.story-section, .breathing, .forms-section, .gallery-section, .closing) {
+  background-color: var(--scenery-shade);
+  background-image: linear-gradient(var(--scenery-veil), var(--scenery-veil)), var(--element-scenery);
+  background-position: center, center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.water-page :is(.story-section, .breathing, .closing):before,
+.polish-page :is(.story-section, .breathing, .closing):before {
+  background: none;
+}
+@media (max-width: 900px), (prefers-reduced-motion: reduce) {
+  .water-page :is(.story-section, .breathing, .forms-section, .gallery-section, .closing),
+  .polish-page :is(.story-section, .breathing, .forms-section, .gallery-section, .closing) {
+    background-attachment: scroll;
+    background-size: 100% 100%, auto 950px;
+    background-repeat: no-repeat, repeat-y;
+  }
+}
