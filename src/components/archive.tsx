@@ -2,7 +2,7 @@
 
 import { sitePath } from "@/lib/site-path";
 import Image from "@/components/asset-image";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   ArrowLeft,
   ArrowRight,
@@ -10,6 +10,8 @@ import {
   Menu,
   X,
   RefreshCw,
+  Flame,
+  Waves,
 } from "lucide-react";
 import { LazyMotion, useReducedMotion } from "motion/react";
 import * as m from "motion/react-m";
@@ -38,23 +40,84 @@ export function SiteNav({
   character?: "yoon" | "kuba";
 }) {
   const [open, setOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries.find((entry) => entry.isIntersecting);
+        if (visible) setActiveSection(`#${visible.target.id}`);
+      },
+      { rootMargin: "-10% 0px -65% 0px", threshold: 0 },
+    );
+    links.forEach(({ href }) => {
+      const section = document.querySelector(href);
+      if (section) observer.observe(section);
+    });
+    return () => observer.disconnect();
+  }, []);
   return (
     <>
       <nav className="desktop-nav" aria-label="Main navigation">
-        {[
-          ...links,
-          {
-            href: sitePath(character === "yoon" ? "/kuba/" : "/"),
-            label: character === "yoon" ? "Kuba ↗" : "Yoon ↗",
-          },
-        ].map((l) => (
-          <a key={l.href} href={l.href}>
-            {l.label}
+        <div
+          className="character-tabs"
+          role="group"
+          aria-label="Choose a Hashira"
+        >
+          <a
+            href={sitePath("/")}
+            className="character-tab character-tab-water"
+            aria-current={character === "yoon" ? "page" : undefined}
+          >
+            <Waves size={19} aria-hidden="true" />
+            <span>
+              <strong>Yoon</strong>
+              <small>Korean Breathing</small>
+            </span>
+            {character !== "yoon" ? (
+              <ArrowUpRightIcon />
+            ) : (
+              <i aria-hidden="true" />
+            )}
           </a>
-        ))}
-        <a href="#forms" className="nav-explore" aria-label="Explore the forms">
-          <ArrowUpRightIcon />
-        </a>
+          <a
+            href={sitePath("/kuba/")}
+            className="character-tab character-tab-flame"
+            aria-current={character === "kuba" ? "page" : undefined}
+          >
+            <Flame size={19} aria-hidden="true" />
+            <span>
+              <strong>Kuba</strong>
+              <small>Polish Breathing</small>
+            </span>
+            {character !== "kuba" ? (
+              <ArrowUpRightIcon />
+            ) : (
+              <i aria-hidden="true" />
+            )}
+          </a>
+        </div>
+        <div
+          className="section-tabs"
+          role="group"
+          aria-label="Explore this character"
+        >
+          {links.map((link, index) => (
+            <a
+              key={link.href}
+              href={link.href}
+              aria-label={link.label}
+              aria-current={
+                activeSection === link.href ? "location" : undefined
+              }
+              onClick={() => setActiveSection(link.href)}
+            >
+              <span aria-hidden="true">
+                {String(index + 1).padStart(2, "0")}
+              </span>
+              {link.label}
+            </a>
+          ))}
+        </div>
       </nav>
       <Button
         variant="ghost"
