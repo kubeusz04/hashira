@@ -2990,7 +2990,7 @@ html[data-page-hidden="true"] .duet-current path {
 .polish-page .hero { background:#140d10; }
 .polish-page .hero:before { background:radial-gradient(ellipse at 75% 50%,#8e271e60,transparent 62%),linear-gradient(130deg,#1b0c11,#241515); opacity:1; mask-image:none; }
 .polish-page .hero h1 { font-size:clamp(155px,17vw,250px); }
-.polish-page .hero-portrait { inset:35px -11% 0 32%; height:1180px; mix-blend-mode:normal; }
+.polish-page .hero-portrait { inset:70px -3% 0 33%; height:1180px; mix-blend-mode:normal; }
 .polish-page .hero-portrait .artwork-hero img { background:transparent; object-fit:cover; object-position:50% 0; mix-blend-mode:lighten; mask-image:linear-gradient(to bottom,black 87%,transparent); mask-composite:add; }
 .ember-halo { position:absolute; width:680px; height:680px; right:-5%; top:170px; border:1px solid #e8b77a22; border-radius:50%; box-shadow:0 0 110px #ca3a1c12,inset 0 0 140px #ae3a2215; pointer-events:none; }
 .ember-halo:before,.ember-halo:after { content:''; position:absolute; inset:35px; border:1px solid #e8b77a15; border-radius:50%; }
@@ -3058,13 +3058,13 @@ html[data-page-hidden="true"] .duet-current path {
 .polish-page .motion-control { background:#211318ed; color:#e7bd7c; border-color:#d0a16740; }
 @media(min-width:901px) and (max-width:1150px){.desktop-nav{gap:15px;font-size:9px}.site-header{padding-inline:4%}.brand>svg{width:90px}.brand>span{font-size:30px}}
 @media(max-width:900px){
- .polish-page .hero-portrait{inset:130px -28% 0 31%;height:1050px}
+ .polish-page .hero-portrait{inset:130px -5% 0 22%;height:1050px}
  .polish-page .character-portrait{width:75%;left:-15%;height:900px}
  .polish-page .closing-image{inset:170px -15% 0 33%}
 }
 @media(max-width:700px){
  .polish-page .hero h1{font-size:150px}
- .polish-page .hero-portrait{inset:600px -24% auto -20%;height:880px}
+ .polish-page .hero-portrait{inset:600px -17% auto -27%;height:880px}
  .polish-page .hero{min-height:1470px}
  .polish-page .hero-copy{padding-bottom:0}
  .polish-page .hero-intro{max-width:265px}
@@ -3119,11 +3119,19 @@ html[data-page-hidden="true"] .duet-current path {
 
 /* An immersive opening portrait, matching Yoon’s editorial scale. */
 @media(min-width:901px) and (max-width:1100px){
- .polish-page .hero-portrait{inset:130px -28% 0 31%;height:1050px}
+ .polish-page .hero-portrait{inset:130px -5% 0 22%;height:1050px}
 }
 @media(max-width:700px){
  .polish-page .hero-portrait .artwork-hero img{
-  object-position:54% 0;
+  object-position:65% 0;
   mask-image:linear-gradient(to right,transparent,black 10%,black 92%,transparent),linear-gradient(to bottom,transparent,black 6%,black 82%,transparent);
+ }
+}
+
+@media(min-width:701px) and (max-width:1100px){.polish-page .hero-portrait .artwork-hero img{object-position:60% 0}}
+@media(min-width:701px) and (max-width:1100px){
+ .polish-page .hero:after{
+  content:"";position:absolute;inset:0;z-index:2;pointer-events:none;
+  background:linear-gradient(90deg,#140d10ed 0%,#140d10c7 32%,#140d1000 62%);
  }
 }

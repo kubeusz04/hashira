@@ -46,10 +46,10 @@ const chapters = [
 ];
 const portraits = [
   {
-    src: "/art/polish/kuba-ember.webp",
+    src: "/art/polish/kuba-hero-v2.webp",
     title: "A blade that burns",
     label: "A new perspective / Motion",
-    alt: "Kuba in a low twisting sabre stance, his crimson coat sweeping through a crescent of flame",
+    alt: "Kuba advancing with a curved sabre, his crimson and ivory coat framed by sweeping golden flame",
   },
   {
     src: "/art/polish/kuba-freesias.webp",
@@ -72,6 +72,12 @@ const portraits = [
 ];
 const gallery = [
   ...portraits,
+  {
+    src: "/art/polish/kuba-ember.webp",
+    title: "The crimson crescent",
+    label: "Action study",
+    alt: "Kuba in a low twisting sword stance with a crescent of crimson flame",
+  },
   {
     src: "/art/polish/kuba.webp",
     title: "The Polish Hashira",
@@ -135,9 +141,9 @@ export default function KubaPage() {
           </div>
           <div className="hero-portrait">
             <Artwork
-              src="/art/polish/kuba-ember.webp"
+              src="/art/polish/kuba-hero-v2.webp"
               title="Kuba — A blade that burns"
-              alt="Kuba in a low twisting sabre stance, his crimson coat sweeping through a crescent of flame"
+              alt="Kuba advancing with a curved sabre, his crimson and ivory coat framed by sweeping golden flame"
               variant="hero"
               priority
             />
