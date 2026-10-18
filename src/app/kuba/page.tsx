@@ -1,3 +1,4 @@
+import { FlameArchive } from "@/components/element-theme";
 /* Full document transitions keep each character’s page-level animation lifecycle isolated. */
 import { sitePath } from "@/lib/site-path";
 import type { Metadata } from "next";
@@ -99,7 +100,7 @@ const gallery = [
 ];
 export default function KubaPage() {
   return (
-    <div className="polish-page">
+    <FlameArchive>
       <a className="skip-link" href="#main">
         Skip to content
       </a>
@@ -584,6 +585,6 @@ export default function KubaPage() {
           Yoon · The Korean Hashira <ArrowUpRight size={16} />
         </a>
       </footer>
-    </div>
+    </FlameArchive>
   );
 }

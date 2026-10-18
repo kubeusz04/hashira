@@ -87,5 +87,12 @@
     "source": "C:\\Users\\Zawadzki\\.codex\\generated_images\\01a1504d-02b0-7d63-a4cf-c69ba14fe04a\\exec-c2b71775-9724-4598-856d-59dd267464d8.png",
     "original": "output/character-poses/kuba-hero-v2.png",
     "asset": "/art/polish/kuba-hero-v2.webp"
+  },
+  {
+    "asset": "/art/polish/ember-landscape.webp",
+    "original": "output/elemental-ui/ember-landscape.png",
+    "tool": "Built-in image generation",
+    "prompt": "Use case stylized-concept. ONE wide cinematic environmental texture for a premium Polish Breathing character artbook website. No characters, text, symbols, logo or border. Near-black obsidian and deep burgundy atmospheric space, very dark empty upper and left two thirds for readable website text. In the lower right third, elegant sharp sweeping ribbons of crimson fire with molten gold edges and sparse tiny rising amber embers. Subtle charcoal rocky ground, dim heat haze and smoky layered depth. Restrained sophisticated painterly anime environment, luminous fine detail in the flame edges but NOT a wall of fire, NOT a bright orange background, no explosion, no buildings or landmarks. Flame accents arc naturally upward from the bottom right edge like a controlled sabre wake. Frame landscape 16:9, dark edges blend into #180e12.",
+    "purpose": "Subdued flame atmosphere behind the breathing philosophy and closing"
   }
 ]

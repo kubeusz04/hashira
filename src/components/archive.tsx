@@ -1,5 +1,6 @@
 "use client";
 
+import { useElementTheme } from "./element-theme";
 import { sitePath } from "@/lib/site-path";
 import Image from "@/components/asset-image";
 import { useEffect, useRef, useState } from "react";
@@ -188,6 +189,7 @@ export function Artwork({
   priority = false,
   variant = "portrait",
 }: ArtworkProps) {
+  const element = useElementTheme();
   const [index, setIndex] = useState(0);
   const reduced = useReducedMotion();
   const [previewAlternate, setPreviewAlternate] = useState(false);
@@ -263,11 +265,14 @@ export function Artwork({
               <span>
                 {previewAlternate ? "Movement plate" : "Character study"}
               </span>
+              <span className="art-switch-track" aria-hidden="true">
+                <i />
+              </span>
             </button>
           ) : null}
         </m.div>
       </LazyMotion>
-      <DialogContent className="art-viewer">
+      <DialogContent className={`art-viewer art-viewer-${element}`}>
         <div className="viewer-heading">
           <DialogTitle>{title}</DialogTitle>
           <DialogDescription>

@@ -42,6 +42,7 @@ export default function RootLayout({
       <body
         style={
           {
+            "--ember-landscape-image": `url("${sitePath("/art/polish/ember-landscape.webp")}")`,
             "--water-garden-image": `url("${sitePath("/art/water-garden.webp")}")`,
             "--yoon-cutout-image": `url("${sitePath("/art/yoon-cutout.webp")}")`,
           } as CSSProperties

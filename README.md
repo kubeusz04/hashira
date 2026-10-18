@@ -81,3 +81,9 @@ Visual QA uses regular Playwright because the Browser plugin is not available. C
 Static export has been verified at `/` and `/breathing-archive/` on a plain local HTTP server. Both character pages support direct loading and refresh; images, CSS backgrounds, fonts, galleries, dialog images and social image URLs include the build-time prefix. Browser checks found no failed requests, runtime/console errors or mobile overflow. Code checks and the export verifier pass. The workflow is prepared locally; no GitHub repository or remote was configured in this workspace, so no live deployment has been performed.
 
 # hashira
+
+## Elemental interface
+
+Both archives share an element-specific UI system: Yoon uses aqua glass, cool borders and rounded controls; Kuba uses dark burgundy metal, copper edges, amber gradients and rising embers. Primary/secondary buttons, navigation, form selectors, art switches, expansion controls, galleries and dialog viewers use consistent tokens. React context keeps the character theme inside portal-based artwork viewers. The static export includes the generated ember backdrop and resolves its repository prefix through `sitePath`.
+
+The concept, ember background and generation prompts are saved in `output/elemental-ui/`. Browser QA covered both routes at 1440, 1024, 768, 390 and 360 px, image switches, themed dialogs, keyboard dismissal, gallery controls, animation pause and reduced motion; no overflow or runtime errors. The site is deployed at https://kubeusz04.github.io/hashira/.

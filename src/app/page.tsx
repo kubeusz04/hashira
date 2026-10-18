@@ -11,7 +11,7 @@ import { Artwork, Gallery, SiteNav } from "@/components/archive";
 
 export default function Home() {
   return (
-    <>
+    <div className="water-page">
       <a className="skip-link" href="#main">
         Skip to content
       </a>
@@ -542,6 +542,6 @@ export default function Home() {
           Explore the archive <ArrowUpRight size={16} aria-hidden="true" />
         </a>
       </footer>
-    </>
+    </div>
   );
 }

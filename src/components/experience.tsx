@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, type CSSProperties } from "react";
 import { Pause, Play } from "lucide-react";
 import { useReducedMotion } from "motion/react";
+import { useElementTheme } from "./element-theme";
 import { forms, pad } from "@/data/forms";
 
 export function WaterAtmosphere({
@@ -10,8 +11,12 @@ export function WaterAtmosphere({
 }: {
   variant?: "water" | "petals";
 }) {
+  const element = useElementTheme();
   return (
-    <div className={`ambient-layer ambient-${variant}`} aria-hidden="true">
+    <div
+      className={`ambient-layer ambient-${variant} ambient-${element}`}
+      aria-hidden="true"
+    >
       {Array.from({ length: 14 }, (_, i) => (
         <span
           className={`drifting-petal petal-${i % 3}`}
@@ -33,7 +38,13 @@ export function WaterAtmosphere({
         preserveAspectRatio="none"
       >
         <g fill="none" stroke="currentColor">
-          <path d="M-50 220C180 50 320 360 580 170S980 20 1260 160" />
+          <path
+            d={
+              element === "flame"
+                ? "M-50 290C90 350 180 120 340 230S500 80 660 150S920 20 1260 100"
+                : "M-50 220C180 50 320 360 580 170S980 20 1260 160"
+            }
+          />
           <path d="M-50 235C180 65 340 375 590 185S990 35 1260 175" />
           <path d="M-50 250C200 80 360 390 610 200S1010 50 1260 190" />
         </g>
