@@ -45,7 +45,8 @@ export function SiteNav({
     const observer = new IntersectionObserver(
       (entries) => {
         const visible = entries.find((entry) => entry.isIntersecting);
-        if (visible) setActiveSection(`#${visible.target.id}`);
+        if (visible)
+          setActiveSection(visible.target.id ? `#${visible.target.id}` : "");
       },
       { rootMargin: "-10% 0px -65% 0px", threshold: 0 },
     );
@@ -53,6 +54,8 @@ export function SiteNav({
       const section = document.querySelector(href);
       if (section) observer.observe(section);
     });
+    const hero = document.querySelector(".hero");
+    if (hero) observer.observe(hero);
     return () => observer.disconnect();
   }, []);
   return (
