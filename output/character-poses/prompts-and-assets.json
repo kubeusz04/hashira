@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "yoon-freesias",
+    "file": "exec-585a4523-21e0-4ee0-b12d-fdbc69ead0b1.png",
+    "title": "The flowers she carries",
+    "use": "Character spread",
+    "prompt": "Identity-preserving new illustration based on the original Yoon reference: seated three-quarter portrait, gently tucking a small cluster of yellow freesias into her Corps uniform, eyes lowered with a restrained warm smile. Keep her adult face, dark hair, freesia hair ornaments, red-blue ribbons, Korean motifs, white embroidered robe over black uniform, gold fittings, katana and scabbard. Frame head to below knees with hands visible. Painterly anime artbook style. Transparent background. No text or other characters.",
+    "asset": "/art/yoon-freesias.webp",
+    "savedOriginal": "output/character-poses/yoon-freesias.png",
+    "reference": "Wojowniczka Hanbok z Żółtymi Frezjami.png",
+    "tool": "Built-in image generation",
+    "width": 1024,
+    "height": 1536,
+    "transparent": true
+  },
+  {
+    "slug": "yoon-current",
+    "file": "exec-f1d9887c-6aa1-4398-b8c1-e913988edcaf.png",
+    "title": "A blade in motion",
+    "use": "Hero",
+    "prompt": "Identity-preserving new illustration based on the original Yoon reference: low three-quarter full-body twisting lateral sword cut, one knee bent low, other leg extended, katana sweeping to the lower left, free hand balancing, hair and embroidered sleeves flowing right. One turquoise water arc and yellow petals. Keep face, outfit, Korean motifs, embroidered freesias and ornate katana. Dark midnight navy mist background, entire new pose inside a tall frame. No enemy, gore, text, border, other characters or newly named technique.",
+    "asset": "/art/yoon-current.webp",
+    "savedOriginal": "output/character-poses/yoon-current.png",
+    "reference": "Wojowniczka Hanbok z Żółtymi Frezjami.png",
+    "tool": "Built-in image generation",
+    "width": 1024,
+    "height": 1536,
+    "transparent": false
+  },
+  {
+    "slug": "yoon-dawn",
+    "file": "exec-18b4498c-f030-4f25-a94c-a1f9108aea2d.png",
+    "title": "A promise carried forward",
+    "use": "Closing portrait",
+    "prompt": "Identity-preserving new illustration based on the original Yoon reference: waist-up three-quarter back view, head turned over the left shoulder toward the viewer with a hopeful smile, hair swept across the far shoulder, freesia hair ornament visible, right hand relaxed on the sheathed katana at her hip. Keep adult face, white Korean embroidered robe over black uniform, red-blue ribbons, gold details and weapon design. Soft silver-blue rim light, transparent background, no scenery, text or additional characters.",
+    "asset": "/art/yoon-dawn.webp",
+    "savedOriginal": "output/character-poses/yoon-dawn.png",
+    "reference": "Wojowniczka Hanbok z Żółtymi Frezjami.png",
+    "tool": "Built-in image generation",
+    "width": 1024,
+    "height": 1536,
+    "transparent": true
+  },
+  {
+    "slug": "yoon-stillness",
+    "file": "exec-e40204ea-e2a1-4161-83c0-f3d4753ffedd.png",
+    "title": "A moment of stillness",
+    "use": "Story panorama",
+    "prompt": "Identity-preserving new cinematic environmental illustration based on the original Yoon reference: wide panoramic view, Yoon seated sideways on a low smooth rock on the right beside a dark stream, knees bent, head bowed thoughtfully toward yellow freesias held near her chest in both hands. Katana safely sheathed at hip, same face, hair, floral Korean robe, uniform, boots and ornaments. Silver-blue ripples, drifting golden petals, predawn mist and distant tree silhouettes; dark negative space left. No husband, children, demons, other characters, buildings, text or claimed specific biographical event.",
+    "asset": "/art/yoon-stillness.webp",
+    "savedOriginal": "output/character-poses/yoon-stillness.png",
+    "reference": "Wojowniczka Hanbok z Żółtymi Frezjami.png",
+    "tool": "Built-in image generation",
+    "width": 1672,
+    "height": 940,
+    "transparent": false
+  }
+]

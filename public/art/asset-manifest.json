@@ -1,0 +1,202 @@
+[
+  {
+    "asset": "/art/yoon.webp",
+    "original": "Wojowniczka Hanbok z Żółtymi Frezjami.png",
+    "form": 0,
+    "width": 1024,
+    "height": 1536,
+    "note": "Main character reference"
+  },
+  {
+    "asset": "/art/form-01-study.webp",
+    "original": "Pierwsza forma_ Rzeka Han — pierwszy nurt-1.png",
+    "form": 1,
+    "width": 1536,
+    "height": 1024,
+    "note": null
+  },
+  {
+    "asset": "/art/form-01-art.webp",
+    "original": "Wodne cięcie kataną w hanboku-1.png",
+    "form": 1,
+    "width": 1024,
+    "height": 1536,
+    "note": null
+  },
+  {
+    "asset": "/art/form-02-study.webp",
+    "original": "Druga forma_ Kołyszące trzciny-2.png",
+    "form": 2,
+    "width": 1536,
+    "height": 1024,
+    "note": null
+  },
+  {
+    "asset": "/art/form-02-art.webp",
+    "original": "Akwamarynowe kołysanie trzciny z kataną-2.png",
+    "form": 2,
+    "width": 1024,
+    "height": 1536,
+    "note": null
+  },
+  {
+    "asset": "/art/form-03-study.webp",
+    "original": "Trzecia Forma_ Goguryeo — Niezłomna Twierdza-3.png",
+    "form": 3,
+    "width": 1536,
+    "height": 1024,
+    "note": null
+  },
+  {
+    "asset": "/art/form-03-art.webp",
+    "original": "Wodna twierdza z kataną-3.png",
+    "form": 3,
+    "width": 1024,
+    "height": 1536,
+    "note": null
+  },
+  {
+    "asset": "/art/form-04-study.webp",
+    "original": "Czwarta forma_ Hwarang — Półksiężyc lojalności-4.png",
+    "form": 4,
+    "width": 1536,
+    "height": 1024,
+    "note": null
+  },
+  {
+    "asset": "/art/form-04-art.webp",
+    "original": "Czwarta forma_ skrzyżowane wodne półksiężyce-4.png",
+    "form": 4,
+    "width": 1024,
+    "height": 1536,
+    "note": null
+  },
+  {
+    "asset": "/art/form-05-study.webp",
+    "original": "Piąta forma_ Cheomseongdae — siedmiogwiazdowa orbita-5.png",
+    "form": 5,
+    "width": 1536,
+    "height": 1024,
+    "note": null
+  },
+  {
+    "asset": "/art/form-05-art.webp",
+    "original": "Siedem gwiezdnych kroków pioruna-5.png",
+    "form": 5,
+    "width": 1024,
+    "height": 1536,
+    "note": "Alternate star artwork includes golden lightning; this is not a different technique."
+  },
+  {
+    "asset": "/art/form-06-study.webp",
+    "original": "Szósta forma_ Goryeo — seledynowe fale-7.png",
+    "form": 6,
+    "width": 1536,
+    "height": 1024,
+    "note": "Filename ends -7; image label and forms.txt both identify Sixth Form: Goryeo."
+  },
+  {
+    "asset": "/art/form-06-art.webp",
+    "original": "Trzy celadonowe cięcia wodnych fal-6.png",
+    "form": 6,
+    "width": 1024,
+    "height": 1536,
+    "note": null
+  },
+  {
+    "asset": "/art/form-07-study.webp",
+    "original": "Siódma forma Hahoe — fałszywe odbicie-6.png",
+    "form": 7,
+    "width": 1536,
+    "height": 1024,
+    "note": "Filename ends -6; image label and forms.txt both identify Seventh Form: Hahoe."
+  },
+  {
+    "asset": "/art/form-07-art.webp",
+    "original": "Siódma forma_ zwodnicze wodne odbicia-7.png",
+    "form": 7,
+    "width": 1024,
+    "height": 1536,
+    "note": null
+  },
+  {
+    "asset": "/art/form-08-study.webp",
+    "original": "Ósma forma_ Sejong — zapisane prądy-8.png",
+    "form": 8,
+    "width": 1536,
+    "height": 1024,
+    "note": null
+  },
+  {
+    "asset": "/art/form-08-art.webp",
+    "original": "Trzy świetliste cięcia hangul-8.png",
+    "form": 8,
+    "width": 1024,
+    "height": 1536,
+    "note": null
+  },
+  {
+    "asset": "/art/form-09-study.webp",
+    "original": "Dziewiąta forma Geobukseon_ pancerna fala-9.png",
+    "form": 9,
+    "width": 1536,
+    "height": 1024,
+    "note": null
+  },
+  {
+    "asset": "/art/form-09-art.webp",
+    "original": "Dziewiąta forma_ pancerna fala-9.png",
+    "form": 9,
+    "width": 1024,
+    "height": 1536,
+    "note": null
+  },
+  {
+    "asset": "/art/form-10-study.webp",
+    "original": "Dziesiąta forma_ Odwrócony przypływ-10.png",
+    "form": 10,
+    "width": 1536,
+    "height": 1024,
+    "note": null
+  },
+  {
+    "asset": "/art/form-10-art.webp",
+    "original": "Odwrócony przypływ błękitnej fali-10.png",
+    "form": 10,
+    "width": 1024,
+    "height": 1536,
+    "note": null
+  },
+  {
+    "asset": "/art/form-11-study.webp",
+    "original": "Jedenasta forma_ Pierwszy marsz — Niezłamana fala-11.png",
+    "form": 11,
+    "width": 1536,
+    "height": 1024,
+    "note": "Polish filename says First March; forms.txt and image title identify March First."
+  },
+  {
+    "asset": "/art/form-11-art.webp",
+    "original": "Niezłomna fala wokół wojowniczki-11.png",
+    "form": 11,
+    "width": 1024,
+    "height": 1536,
+    "note": null
+  },
+  {
+    "asset": "/art/form-12-study.webp",
+    "original": "Dwunasta Forma_ Arirang — Wir Powracających Głosów-12.png",
+    "form": 12,
+    "width": 1536,
+    "height": 1024,
+    "note": "Filename says Whirlpool; forms.txt and labeled image title identify River of Returning Voices."
+  },
+  {
+    "asset": "/art/form-12-art.webp",
+    "original": "Taniec ostrza w wodnym wirze-12.png",
+    "form": 12,
+    "width": 1024,
+    "height": 1536,
+    "note": null
+  }
+]

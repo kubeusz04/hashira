@@ -1,0 +1,80 @@
+[
+  {
+    "asset": "/art/yoon-cutout.webp",
+    "source": "Wojowniczka Hanbok z Żółtymi Frezjami.png",
+    "purpose": "Background-extracted presentation derivative; the artwork viewer retains the original image.",
+    "tool": "Built-in image generation",
+    "prompt": "Remove only the dark background. Preserve Yoon’s face, outfit, yellow freesias, pose, katana, and composition. Transparent output."
+  },
+  {
+    "asset": "/art/water-garden.webp",
+    "source": "Approved six-section visual concept",
+    "purpose": "Decorative water, mist, freesia and petal background without text or characters.",
+    "tool": "Built-in image generation",
+    "prompt": "Cinematic deep navy water with celadon ripples, mist, yellow freesia blossoms and pink petals; dark upper negative space; no text or people."
+  },
+  {
+    "asset": "/art/yoon-freesias.webp",
+    "source": "Wojowniczka Hanbok z Żółtymi Frezjami.png",
+    "purpose": "Character spread",
+    "tool": "Built-in image generation",
+    "prompt": "Identity-preserving new illustration based on the original Yoon reference: seated three-quarter portrait, gently tucking a small cluster of yellow freesias into her Corps uniform, eyes lowered with a restrained warm smile. Keep her adult face, dark hair, freesia hair ornaments, red-blue ribbons, Korean motifs, white embroidered robe over black uniform, gold fittings, katana and scabbard. Frame head to below knees with hands visible. Painterly anime artbook style. Transparent background. No text or other characters.",
+    "original": "output/character-poses/yoon-freesias.png"
+  },
+  {
+    "asset": "/art/yoon-current.webp",
+    "source": "Wojowniczka Hanbok z Żółtymi Frezjami.png",
+    "purpose": "Hero",
+    "tool": "Built-in image generation",
+    "prompt": "Identity-preserving new illustration based on the original Yoon reference: low three-quarter full-body twisting lateral sword cut, one knee bent low, other leg extended, katana sweeping to the lower left, free hand balancing, hair and embroidered sleeves flowing right. One turquoise water arc and yellow petals. Keep face, outfit, Korean motifs, embroidered freesias and ornate katana. Dark midnight navy mist background, entire new pose inside a tall frame. No enemy, gore, text, border, other characters or newly named technique.",
+    "original": "output/character-poses/yoon-current.png"
+  },
+  {
+    "asset": "/art/yoon-dawn.webp",
+    "source": "Wojowniczka Hanbok z Żółtymi Frezjami.png",
+    "purpose": "Closing portrait",
+    "tool": "Built-in image generation",
+    "prompt": "Identity-preserving new illustration based on the original Yoon reference: waist-up three-quarter back view, head turned over the left shoulder toward the viewer with a hopeful smile, hair swept across the far shoulder, freesia hair ornament visible, right hand relaxed on the sheathed katana at her hip. Keep adult face, white Korean embroidered robe over black uniform, red-blue ribbons, gold details and weapon design. Soft silver-blue rim light, transparent background, no scenery, text or additional characters.",
+    "original": "output/character-poses/yoon-dawn.png"
+  },
+  {
+    "asset": "/art/yoon-stillness.webp",
+    "source": "Wojowniczka Hanbok z Żółtymi Frezjami.png",
+    "purpose": "Story panorama",
+    "tool": "Built-in image generation",
+    "prompt": "Identity-preserving new cinematic environmental illustration based on the original Yoon reference: wide panoramic view, Yoon seated sideways on a low smooth rock on the right beside a dark stream, knees bent, head bowed thoughtfully toward yellow freesias held near her chest in both hands. Katana safely sheathed at hip, same face, hair, floral Korean robe, uniform, boots and ornaments. Silver-blue ripples, drifting golden petals, predawn mist and distant tree silhouettes; dark negative space left. No husband, children, demons, other characters, buildings, text or claimed specific biographical event.",
+    "original": "output/character-poses/yoon-stillness.png"
+  },
+  {
+    "asset": "/art/polish/kuba-ember.webp",
+    "source": "Bohaterski szlachcic z płonącą szablą.png",
+    "purpose": "Hero",
+    "tool": "Built-in image generation",
+    "prompt": "Use case: identity-preserve. Create ONE new premium anime artbook illustration of Kuba, the adult male Polish Hashira from the supplied reference. Reference image is identity and costume reference, NOT a pose to repeat. Preserve his recognizable adult face, short swept brown hair with clipped sides, blue eyes, thin dark rectangular glasses, light stubble, ivory and crimson Polish noble-inspired embroidered coat with ornate gold vine embroidery, black Corps uniform, red sash, gold chains and fittings, black gold-trimmed boots, single curved ornamental Polish sabre with gold knuckle guard and matching scabbard. New pose: full-body dynamic low three-quarter sweeping sabre cut, body twisted toward camera, front knee bent, rear leg extended, left arm balancing behind, one hand holding ONE sabre. Face fully visible and determined, hair and coat tails caught in movement. A restrained sharp crimson flame crescent follows the blade with scattered gold sparks, no giant eagle or wings. High-end painterly anime illustration, expressive face, confident fine linework, rich fabric detail, dramatic warm rim light, anatomically correct hands. Entire head, sword and boots inside tall 2:3 composition with breathing room at edges. Background deep near-black burgundy #180e12 mist, subdued and mostly empty. No text, logos, borders, watermarks, enemies, extra people, duplicate weapons or additional limbs. Significantly different composition from the upright reference.",
+    "original": "output/character-poses/kuba-ember.png"
+  },
+  {
+    "asset": "/art/polish/kuba-freesias.webp",
+    "source": "Bohaterski szlachcic z płonącą szablą.png",
+    "purpose": "Freesias",
+    "tool": "Built-in image generation",
+    "prompt": "Use case: identity-preserve. ONE premium painterly anime artbook illustration of Kuba, adult male Polish Hashira. Supplied reference is for his identity and costume, not the pose. Preserve adult face, short swept brown hair with clipped sides, blue eyes, thin dark rectangular glasses, light stubble, ivory/crimson gold-vine-embroidered coat, black Corps uniform, red sash, gold chains, ornamental curved Polish sabre with gold guard and its black/gold scabbard. Detailed fabric and expressive anatomy, elegant clean lines, subtle painterly shading. No text, border, logo, watermark, extra people or duplicate weapons. Entirely NEW composition: seated three-quarter portrait, head to below knees, Kuba turned slightly to his left, looking down with a gentle affectionate smile while carefully tying a narrow pale ribbon around a small bouquet of YELLOW FREESIAS held in both hands at his lap, a gift for his wife Yoon. Correct slender freesia stems and small trumpet-shaped yellow blossoms, no roses. Sabre safely sheathed at his hip. Hands fully visible, coat drapes naturally over the seat, intimate quiet moment. Soft warm gold light, no flame effects. Tall 2:3 framing, keep entire head and bouquet comfortably within canvas. True transparent background; no floor, garden, scenery or opaque backdrop.",
+    "original": "output/character-poses/kuba-freesias.png"
+  },
+  {
+    "asset": "/art/polish/kuba-dawn.webp",
+    "source": "Bohaterski szlachcic z płonącą szablą.png",
+    "purpose": "Dawn",
+    "tool": "Built-in image generation",
+    "prompt": "Use case: identity-preserve. ONE premium painterly anime artbook illustration of Kuba, adult male Polish Hashira. Supplied reference is for his identity and costume, not the pose. Preserve adult face, short swept brown hair with clipped sides, blue eyes, thin dark rectangular glasses, light stubble, ivory/crimson gold-vine-embroidered coat, black Corps uniform, red sash, gold chains, ornamental curved Polish sabre with gold guard and its black/gold scabbard. Detailed fabric and expressive anatomy, elegant clean lines, subtle painterly shading. No text, border, logo, watermark, extra people or duplicate weapons. Entirely NEW composition: waist-up three-quarter BACK view, head turning over his right shoulder toward viewer with quiet hopeful smile. Clearly show his glasses and blue eye in profile, recognizable face and brown swept hair. Coat collar and gold embroidered ivory back panels ripple in breeze; one hand relaxed on his safely sheathed sabre at hip. Looking forward toward life beyond battle, calm and dignified. Subtle soft silver dawn rim light along hair and crimson fabric. Tall 2:3 portrait with breathing room above hair and below hand, no sword drawn, no flame effects. True transparent background; no scenery or opaque backdrop.",
+    "original": "output/character-poses/kuba-dawn.png"
+  },
+  {
+    "asset": "/art/polish/kuba-stillness.webp",
+    "source": "Bohaterski szlachcic z płonącą szablą.png",
+    "purpose": "Stillness",
+    "tool": "Built-in image generation",
+    "prompt": "Use case: identity-preserve. ONE premium painterly anime artbook illustration of Kuba, adult male Polish Hashira. Supplied reference is for his identity and costume, not the pose. Preserve adult face, short swept brown hair with clipped sides, blue eyes, thin dark rectangular glasses, light stubble, ivory/crimson gold-vine-embroidered coat, black Corps uniform, red sash, gold chains, ornamental curved Polish sabre with gold guard and its black/gold scabbard. Detailed fabric and expressive anatomy, elegant clean lines, subtle painterly shading. No text, border, logo, watermark, extra people or duplicate weapons. Entirely NEW cinematic wide panoramic 16:9 environmental composition: Kuba sits sideways on a low stone bench on RIGHT half of image, three-quarter profile, shoulders relaxed and head lowered thoughtfully toward a small bouquet of yellow freesias held gently in his lap, safely sheathed sabre at hip. Full seated figure visible. A quiet garden path at dawn, distant dark trees and soft morning mist, warm pale amber light on his face and embroidered sleeve. LEFT half subdued deep burgundy/charcoal negative space, sparse drifting gold petals, restrained atmosphere, no architectural landmarks, no battle, no fire, no other people. Flowers are a quiet gift for Yoon, not a new specific historical event. Render beautiful cohesive anime artbook background, strong cinematic depth, meticulous eyes and glasses.",
+    "original": "output/character-poses/kuba-stillness.png"
+  }
+]

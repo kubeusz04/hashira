@@ -1,0 +1,229 @@
+{
+  "note": "Forms mapped by embedded labels and depicted movements, not filename suffixes. Source origin proposal superseded by established Kuba and Yoon story.",
+  "assets": [
+    {
+      "form": 1,
+      "kind": "study",
+      "source": "Piast — Pierwsza iskra-1.png",
+      "output": "form-01-study.webp"
+    },
+    {
+      "form": 1,
+      "kind": "art",
+      "source": "Szlachcic w cięciu ze złotymi iskrami-2.png",
+      "output": "form-01-art.webp"
+    },
+    {
+      "form": 1,
+      "kind": "scroll",
+      "source": "Pierwsza forma_ iskry zapłonęły-1.png",
+      "output": "form-01-scroll.webp"
+    },
+    {
+      "form": 2,
+      "kind": "study",
+      "source": "Płomienne cięcie smoczą paszczą-2.png",
+      "output": "form-02-study.webp"
+    },
+    {
+      "form": 2,
+      "kind": "art",
+      "source": "Płonąca paszcza smoka nad szablą-3.png",
+      "output": "form-02-art.webp"
+    },
+    {
+      "form": 2,
+      "kind": "scroll",
+      "source": "Płonąca smocza paszcza-2.png",
+      "output": "form-02-scroll.webp"
+    },
+    {
+      "form": 3,
+      "kind": "study",
+      "source": "Złamana nuta_ dwufazowe cięcie-3.png",
+      "output": "form-03-study.webp"
+    },
+    {
+      "form": 3,
+      "kind": "art",
+      "source": "Błyskawiczne cięcie zwrotne polskiego szlachcica-5.png",
+      "output": "form-03-art.webp"
+    },
+    {
+      "form": 3,
+      "kind": "scroll",
+      "source": "Trzecia forma_ Przerwany zamach-3.png",
+      "output": "form-03-scroll.webp"
+    },
+    {
+      "form": 4,
+      "kind": "study",
+      "source": "Grunwald_ Krzyżujące ogniste cięcia-4.png",
+      "output": "form-04-study.webp"
+    },
+    {
+      "form": 4,
+      "kind": "art",
+      "source": "Płonący krzyż dwóch cięć-4.png",
+      "output": "form-04-art.webp"
+    },
+    {
+      "form": 4,
+      "kind": "scroll",
+      "source": "Czwarta forma_ skrzyżowane ostrza-7.png",
+      "output": "form-04-scroll.webp"
+    },
+    {
+      "form": 5,
+      "kind": "study",
+      "source": "Karmazynowy półksiężyc sarmackiej szabli-5.png",
+      "output": "form-05-study.webp"
+    },
+    {
+      "form": 5,
+      "kind": "art",
+      "source": "Szkarłatne półksiężyce szlachcica z szablą-6.png",
+      "output": "form-05-art.webp"
+    },
+    {
+      "form": 5,
+      "kind": "scroll",
+      "source": "Karmazynowe półksiężyce na zwoju-4.png",
+      "output": "form-05-scroll.webp"
+    },
+    {
+      "form": 6,
+      "kind": "study",
+      "source": "Skrzydlata szarża husarii-6.png",
+      "output": "form-06-study.webp"
+    },
+    {
+      "form": 6,
+      "kind": "art",
+      "source": "Szarża z płonącymi skrzydłami husarii-7.png",
+      "output": "form-06-art.webp"
+    },
+    {
+      "form": 6,
+      "kind": "scroll",
+      "source": "Szósta forma_ szarża płonących skrzydeł-9.png",
+      "output": "form-06-scroll.webp"
+    },
+    {
+      "form": 7,
+      "kind": "study",
+      "source": "Wiedeński meteor_ opadające cięcie-7.png",
+      "output": "form-07-study.webp"
+    },
+    {
+      "form": 7,
+      "kind": "art",
+      "source": "Zstępujące zwycięstwo szlachcica z szablą-8.png",
+      "output": "form-07-art.webp"
+    },
+    {
+      "form": 7,
+      "kind": "scroll",
+      "source": "Siódma forma_ zstępujące zwycięstwo-5.png",
+      "output": "form-07-scroll.webp"
+    },
+    {
+      "form": 8,
+      "kind": "study",
+      "source": "Trzy filary ognia_ odbicie, obrona, kontra-8.png",
+      "output": "form-08-study.webp"
+    },
+    {
+      "form": 8,
+      "kind": "art",
+      "source": "Kontratak wśród trzech płomiennych filarów-14.png",
+      "output": "form-08-art.webp"
+    },
+    {
+      "form": 8,
+      "kind": "scroll",
+      "source": "Ósma forma_ trzy filary-8.png",
+      "output": "form-08-scroll.webp"
+    },
+    {
+      "form": 9,
+      "kind": "study",
+      "source": "Kościuszko — niski łuk ognia-10.png",
+      "output": "form-09-study.webp"
+    },
+    {
+      "form": 9,
+      "kind": "art",
+      "source": "Ognista kosa z szabli-11.png",
+      "output": "form-09-art.webp"
+    },
+    {
+      "form": 9,
+      "kind": "scroll",
+      "source": "Dziewiąta forma_ Kosa buntu-6.png",
+      "output": "form-09-scroll.webp"
+    },
+    {
+      "form": 10,
+      "kind": "study",
+      "source": "Mazurkowy taniec karmazynowych iskier-9.png",
+      "output": "form-10-study.webp"
+    },
+    {
+      "form": 10,
+      "kind": "art",
+      "source": "Taniec szabli w karmazynowych iskrach-9.png",
+      "output": "form-10-art.webp"
+    },
+    {
+      "form": 10,
+      "kind": "scroll",
+      "source": "Dziesiąta forma_ Taniec szkarłatnych iskier-10.png",
+      "output": "form-10-scroll.webp"
+    },
+    {
+      "form": 11,
+      "kind": "study",
+      "source": "Ukryte żary_ unik i boczne cięcie-11.png",
+      "output": "form-11-study.webp"
+    },
+    {
+      "form": 11,
+      "kind": "art",
+      "source": "Unik szlachcica z żarem na ostrzu-10.png",
+      "output": "form-11-art.webp"
+    },
+    {
+      "form": 11,
+      "kind": "scroll",
+      "source": "Jedenasta forma_ Ukryte żary-12.png",
+      "output": "form-11-scroll.webp"
+    },
+    {
+      "form": 12,
+      "kind": "study",
+      "source": "Biały Orzeł_ Odrodzenie z Popiołów-12.png",
+      "output": "form-12-study.webp"
+    },
+    {
+      "form": 12,
+      "kind": "art",
+      "source": "Ostateczne cięcie pod płomiennym orłem-12.png",
+      "output": "form-12-art.webp"
+    },
+    {
+      "form": 12,
+      "kind": "scroll",
+      "source": "Biały orzeł z popiołów-11.png",
+      "output": "form-12-scroll.webp"
+    },
+    {
+      "source": "Bohaterski szlachcic z płonącą szablą.png",
+      "output": "kuba.webp"
+    },
+    {
+      "source": "Izolowana postać z mieczem i iskrami-13.png",
+      "output": "first-spark.webp"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "tool": "Built-in image generation",
+  "reference": "Bohaterski szlachcic z płonącą szablą.png",
+  "assets": [
+    {
+      "key": "Hero",
+      "name": "kuba-ember",
+      "prompt": "Use case: identity-preserve. Create ONE new premium anime artbook illustration of Kuba, the adult male Polish Hashira from the supplied reference. Reference image is identity and costume reference, NOT a pose to repeat. Preserve his recognizable adult face, short swept brown hair with clipped sides, blue eyes, thin dark rectangular glasses, light stubble, ivory and crimson Polish noble-inspired embroidered coat with ornate gold vine embroidery, black Corps uniform, red sash, gold chains and fittings, black gold-trimmed boots, single curved ornamental Polish sabre with gold knuckle guard and matching scabbard. New pose: full-body dynamic low three-quarter sweeping sabre cut, body twisted toward camera, front knee bent, rear leg extended, left arm balancing behind, one hand holding ONE sabre. Face fully visible and determined, hair and coat tails caught in movement. A restrained sharp crimson flame crescent follows the blade with scattered gold sparks, no giant eagle or wings. High-end painterly anime illustration, expressive face, confident fine linework, rich fabric detail, dramatic warm rim light, anatomically correct hands. Entire head, sword and boots inside tall 2:3 composition with breathing room at edges. Background deep near-black burgundy #180e12 mist, subdued and mostly empty. No text, logos, borders, watermarks, enemies, extra people, duplicate weapons or additional limbs. Significantly different composition from the upright reference.",
+      "source": "C:\\Users\\Zawadzki\\.codex\\generated_images\\01a1504d-02b0-7d63-a4cf-c69ba14fe04a\\exec-8a9e1879-7b86-41ce-80bf-302291f52bdf.png"
+    },
+    {
+      "key": "Freesias",
+      "transparent": true,
+      "prompt": "Use case: identity-preserve. ONE premium painterly anime artbook illustration of Kuba, adult male Polish Hashira. Supplied reference is for his identity and costume, not the pose. Preserve adult face, short swept brown hair with clipped sides, blue eyes, thin dark rectangular glasses, light stubble, ivory/crimson gold-vine-embroidered coat, black Corps uniform, red sash, gold chains, ornamental curved Polish sabre with gold guard and its black/gold scabbard. Detailed fabric and expressive anatomy, elegant clean lines, subtle painterly shading. No text, border, logo, watermark, extra people or duplicate weapons. Entirely NEW composition: seated three-quarter portrait, head to below knees, Kuba turned slightly to his left, looking down with a gentle affectionate smile while carefully tying a narrow pale ribbon around a small bouquet of YELLOW FREESIAS held in both hands at his lap, a gift for his wife Yoon. Correct slender freesia stems and small trumpet-shaped yellow blossoms, no roses. Sabre safely sheathed at his hip. Hands fully visible, coat drapes naturally over the seat, intimate quiet moment. Soft warm gold light, no flame effects. Tall 2:3 framing, keep entire head and bouquet comfortably within canvas. True transparent background; no floor, garden, scenery or opaque backdrop.",
+      "name": "kuba-freesias",
+      "source": "C:\\Users\\Zawadzki\\.codex\\generated_images\\01a1504d-02b0-7d63-a4cf-c69ba14fe04a\\exec-7f641bf1-91ec-449a-a5a9-7b5fa5c62a99.png"
+    },
+    {
+      "key": "Dawn",
+      "transparent": true,
+      "prompt": "Use case: identity-preserve. ONE premium painterly anime artbook illustration of Kuba, adult male Polish Hashira. Supplied reference is for his identity and costume, not the pose. Preserve adult face, short swept brown hair with clipped sides, blue eyes, thin dark rectangular glasses, light stubble, ivory/crimson gold-vine-embroidered coat, black Corps uniform, red sash, gold chains, ornamental curved Polish sabre with gold guard and its black/gold scabbard. Detailed fabric and expressive anatomy, elegant clean lines, subtle painterly shading. No text, border, logo, watermark, extra people or duplicate weapons. Entirely NEW composition: waist-up three-quarter BACK view, head turning over his right shoulder toward viewer with quiet hopeful smile. Clearly show his glasses and blue eye in profile, recognizable face and brown swept hair. Coat collar and gold embroidered ivory back panels ripple in breeze; one hand relaxed on his safely sheathed sabre at hip. Looking forward toward life beyond battle, calm and dignified. Subtle soft silver dawn rim light along hair and crimson fabric. Tall 2:3 portrait with breathing room above hair and below hand, no sword drawn, no flame effects. True transparent background; no scenery or opaque backdrop.",
+      "name": "kuba-dawn",
+      "source": "C:\\Users\\Zawadzki\\.codex\\generated_images\\01a1504d-02b0-7d63-a4cf-c69ba14fe04a\\exec-054d4a30-fd26-4a0b-877e-c539dffc3207.png"
+    },
+    {
+      "key": "Stillness",
+      "transparent": false,
+      "prompt": "Use case: identity-preserve. ONE premium painterly anime artbook illustration of Kuba, adult male Polish Hashira. Supplied reference is for his identity and costume, not the pose. Preserve adult face, short swept brown hair with clipped sides, blue eyes, thin dark rectangular glasses, light stubble, ivory/crimson gold-vine-embroidered coat, black Corps uniform, red sash, gold chains, ornamental curved Polish sabre with gold guard and its black/gold scabbard. Detailed fabric and expressive anatomy, elegant clean lines, subtle painterly shading. No text, border, logo, watermark, extra people or duplicate weapons. Entirely NEW cinematic wide panoramic 16:9 environmental composition: Kuba sits sideways on a low stone bench on RIGHT half of image, three-quarter profile, shoulders relaxed and head lowered thoughtfully toward a small bouquet of yellow freesias held gently in his lap, safely sheathed sabre at hip. Full seated figure visible. A quiet garden path at dawn, distant dark trees and soft morning mist, warm pale amber light on his face and embroidered sleeve. LEFT half subdued deep burgundy/charcoal negative space, sparse drifting gold petals, restrained atmosphere, no architectural landmarks, no battle, no fire, no other people. Flowers are a quiet gift for Yoon, not a new specific historical event. Render beautiful cohesive anime artbook background, strong cinematic depth, meticulous eyes and glasses.",
+      "name": "kuba-stillness",
+      "source": "C:\\Users\\Zawadzki\\.codex\\generated_images\\01a1504d-02b0-7d63-a4cf-c69ba14fe04a\\exec-164f6c53-3a2d-4280-bd70-9a36a2abc9be.png"
+    }
+  ]
+}
